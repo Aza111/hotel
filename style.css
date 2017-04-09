@@ -36,6 +36,7 @@ div.main
 {
     background: #fff;
     height: auto;
+    box-shadow: #000 2px 2px 20px 1px
 }
 div.slider
 {
@@ -121,5 +122,10 @@ div.info h3
 #inf2
 {
     background-image: url(img/inf2.png);
+    background-size: 100%;
+}
+#inf3
+{
+    background-image: url(img/inf3.png);
     background-size: 100%;
 }
