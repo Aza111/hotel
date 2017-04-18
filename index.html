@@ -64,23 +64,30 @@
       var index = 0;
             
             autoSlide()
+           //Функция для слайда 
             function autoSlide()
             {
+                // Объявляем картинки 
                  var x = document.getElementsByClassName("slide");
+                // Перемещаем выбор картинки 
                 index++;
+                // Когда картинки закончатся 
                 if(index>=x.length-1)
                    {
                    index=0;
                    }
+                // Все картинки невидимые 
                 for(i=0; i<x.length-1; i++)
                 {
                     x[i].style.opacity="0";
                 }
+                // Выбранная картинка видима 
                  x[index].style.opacity="1";
                 setTimeout(autoSlide, 4000);
             }
                 
          y();
+        // Функция для правильности выбора дат 
         function y()
             {
            var x = document.getElementsByName("calendar");
