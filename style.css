@@ -17,6 +17,7 @@ nav
     background: #DC143C;
     width: 1200px;
     z-index: 1;
+     box-shadow: #000 2px 2px 20px 1px;
 }
 
 
@@ -56,6 +57,7 @@ img.slide
     height:700px;
     display: block;
     transition: 2s;
+     box-shadow: #000 2px 2px 20px 1px;
 }
 div.book
 {
